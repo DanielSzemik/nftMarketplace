@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/Nft-marketplace-gh-pages/static/css/main.c474fbed.css",
+    "main.js": "/Nft-marketplace-gh-pages/static/js/main.23508a8a.js",
+    "static/js/787.c23b093c.chunk.js": "/Nft-marketplace-gh-pages/static/js/787.c23b093c.chunk.js",
+    "static/media/bg_1.mp4": "/Nft-marketplace-gh-pages/static/media/bg_1.4caa584e548b76f25cd3.mp4",
+    "static/media/Poppins-Light.ttf": "/Nft-marketplace-gh-pages/static/media/Poppins-Light.7641a0f76ca9ef6c252c.ttf",
+    "static/media/Poppins-Regular.ttf": "/Nft-marketplace-gh-pages/static/media/Poppins-Regular.35d26b781dc5fda684cc.ttf",
+    "static/media/Poppins-Bold.ttf": "/Nft-marketplace-gh-pages/static/media/Poppins-Bold.cdb29a5d7ccf57ff05a3.ttf",
+    "static/media/Logo.svg": "/Nft-marketplace-gh-pages/static/media/Logo.a357ce43c6ae4a82646af6f0fe3d28b7.svg",
+    "index.html": "/Nft-marketplace-gh-pages/index.html",
+    "main.c474fbed.css.map": "/Nft-marketplace-gh-pages/static/css/main.c474fbed.css.map",
+    "main.23508a8a.js.map": "/Nft-marketplace-gh-pages/static/js/main.23508a8a.js.map",
+    "787.c23b093c.chunk.js.map": "/Nft-marketplace-gh-pages/static/js/787.c23b093c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c474fbed.css",
+    "static/js/main.23508a8a.js"
+  ]
+}
