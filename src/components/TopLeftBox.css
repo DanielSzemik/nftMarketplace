@@ -1,0 +1,39 @@
+.background {
+    width: 301px;
+    height: 80px;
+    border-radius: 8px;
+    box-shadow: 0 3px 16px 0 rgba(0, 0, 0, 0.08);
+    background-color: #ffffff;
+    position: absolute;
+    top: 12px;
+    left: 32px;  
+}
+
+.Logo{
+    position: absolute;
+    top: 30.4px;
+    left: 33.1px;  
+}
+
+.about-project{
+    height: 20px;
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.29;
+    letter-spacing: normal;
+    text-align: left;
+    color: #272727;
+    position: absolute;
+    top: 33px;
+    right: 33px;  
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: local('Poppins'), url(../fonts/Poppins-Bold.ttf) format('truetype');
+    /* other formats include: 'woff2', 'truetype, 'opentype',
+                              'embedded-opentype', and 'svg' */
+  }
