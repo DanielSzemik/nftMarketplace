@@ -59,12 +59,13 @@
 }
 
 .days-top{
+    width: 200px;
     height:60px;
     position: absolute;
     top: 0;
     bottom:0;
     margin:auto;
-    left: 24px;  
+    left: 0px;  
 }
 
 .days-rectangle{
@@ -79,6 +80,7 @@
 }
 
 .days-number{
+    position:absolute;
     width: 76px;
     height: 64px;
     font-family: Poppins;
@@ -88,12 +90,15 @@
     font-style: normal;
     line-height: 1.13;
     letter-spacing: -1.2px;
-    text-align: left;
+    text-align: right;
     color: #272727;
-    left: 24px;  
+    right: 100px;  
 }
 
 .days{
+    position:absolute;
+    top: 9.6px;
+    left: 108px;  
     width: 68px;
     height: 44px;
     font-family: Poppins-light;
@@ -103,9 +108,8 @@
     font-style: normal;
     line-height: 2.43;
     letter-spacing: -0.28px;
-    text-align: left;
     color: #6f6f6f;
-    right: 24px;  
+
 }
 
 .hours-rectangle{

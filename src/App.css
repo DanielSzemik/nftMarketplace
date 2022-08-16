@@ -1,3 +1,9 @@
+.Root {
+  height: 100%;
+  width: 100%;
+  overflow-x: hidden;
+}
+
 .App {
   text-align: left;
   background-color: #00FFFF;
