@@ -38,14 +38,14 @@
     margin: 32px 48px 110px 64px;
     border-radius: 8px;
     box-shadow: 0 3px 16px 0 rgba(0, 0, 0, 0.08);
-    padding: 62px 292px 0 267px;
+    padding: 62px 9% 0 9%;
     overflow: hidden;
     display:block;
     
 }
 
 .about-title{
-    margin: 0px 502px 31px 25px;
+    margin: 0px 5px 31px 5px;
     width: 378px;
     height: 73px;
     font-family: Poppins;
@@ -70,11 +70,12 @@
     letter-spacing: -0.36px;
     text-align: left;
     color: #6f6f6f;
-    margin: 31px 85px 45px 85px;
+    margin: 31px 4.5% 45px 4.5%;
 }
 
 .about-merry-go-round{
     height:800px;
+    width:60%;
     overflow: hidden;
     display:block;
     margin-bottom: -350px;

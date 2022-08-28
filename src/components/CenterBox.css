@@ -1,6 +1,5 @@
 .top-level {
-    width: 1001.3px;
-    height: 323px;
+    
 }
 
 .discover-collect-create{
@@ -15,9 +14,7 @@
     letter-spacing: -1.76px;
     text-align: left;
     color: #272727;
-    position: absolute;
-    top: 0px;
-    left: 0px;  
+    float:left;
 }
 
 .star-next-to-create{
@@ -32,9 +29,7 @@
 .right-div{
     width: 457.7px;
     height: 288.6px;
-    position: absolute;
-    top: 17.2px;
-    right: 0px;  
+    float: left;
     -webkit-font-smoothing: subpixel-antialiased;
     -webkit-transform: translateZ(0) scale(1.0, 1.0);
 }
