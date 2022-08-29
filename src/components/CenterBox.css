@@ -3,6 +3,8 @@
 }
 
 .discover-collect-create{
+    margin-left: 5px;
+    margin-right: 5px;
     width: 477px;
     height: 323px;
     font-family: Poppins;
@@ -23,10 +25,13 @@
     height: 33.6px;
     background: -webkit-linear-gradient(#6d38de, #dd2ad8);
     -webkit-background-clip: text;
+    background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 
 .right-div{
+    margin-left: 5px;
+    margin-right: 5px;
     width: 457.7px;
     height: 288.6px;
     float: left;
@@ -39,6 +44,7 @@
     height: 69px;
     background: -webkit-linear-gradient(#6d38de, #dd2ad8);
     -webkit-background-clip: text;
+    background-clip: text;
     -webkit-text-fill-color: transparent;
     font-family: Poppins-light;
     font-size: 26px;
@@ -48,9 +54,6 @@
     line-height: 1.14;
     letter-spacing: -0.7px;
     text-align: left;
-    position: absolute;
-    top: 0px;
-    right: 0px;  
 }
 
 .days-top{
@@ -175,3 +178,166 @@
     /* other formats include: 'woff2', 'truetype, 'opentype',
                               'embedded-opentype', and 'svg' */
   }
+
+
+  .discover-collect-create-mobile{
+    margin-left: 5px;
+    margin-right: 5px;
+    width: 238.5px;
+    height: 120px;
+    font-family: Poppins;
+    font-size: 44px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 0.8;
+    letter-spacing: -0.88px;
+    text-align: left;
+    color: #272727;
+    float:left;
+}
+
+.star-next-to-create-mobile{
+    font-size: 44px;
+    width: 17px;
+    height: 16px;
+    background: -webkit-linear-gradient(#6d38de, #dd2ad8);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.right-div-mobile{
+    margin-left: 5px;
+    margin-right: 5px;
+    width: 228.8px;
+    height: 144.3px;
+    float: left;
+    -webkit-font-smoothing: subpixel-antialiased;
+    -webkit-transform: translateZ(0) scale(1.0, 1.0);
+}
+
+.get-ready-text-mobile{
+    width: 228.9px;
+    height: 34.5px;
+    background: -webkit-linear-gradient(#6d38de, #dd2ad8);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: Poppins-light;
+    font-size: 13px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 0.57;
+    letter-spacing: -0.35px;
+    text-align: left;
+}
+
+.days-top-mobile{
+    width: 100px;
+    height:30px;
+    position: absolute;
+    top: 0;
+    bottom:0;
+    margin:auto;
+    left: 0px;  
+}
+
+.days-rectangle-mobile{
+    width: 100px;
+    height: 57.5px;
+    position: absolute;
+    top: 45.8px;
+    left: 0px;  
+    background-color: #FFFFFF;
+    display: flex;
+    border-radius: 4px;
+}
+
+.days-number-mobile{
+    position:absolute;
+    width: 38px;
+    height: 32px;
+    font-family: Poppins;
+    font-size: 30px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 0.56;
+    letter-spacing: -0.6px;
+    text-align: right;
+    color: #272727;
+    right: 50px;  
+}
+
+.days-mobile{
+    position:absolute;
+    top: 4.8px;
+    left: 54px;  
+    width: 34px;
+    height: 22px;
+    font-family: Poppins-light;
+    font-size: 14px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.21;
+    letter-spacing: -0.14px;
+    color: #6f6f6f;
+
+}
+
+.hours-rectangle-mobile{
+    width: 100px;
+    height: 57.5px;
+    position: absolute;
+    top: 45.8px;
+    left: 104px;  
+    background-color: #FFFFFF;
+    display: flex;
+    border-radius: 4px;
+}
+
+.learn-more-button-mobile{
+    width: 105.5px;
+    height: 26px;
+    border-radius: 2px;
+    background-image: linear-gradient(284deg, #6d38de, #dd2ad8);
+    position: absolute;
+    bottom: 0px;
+    left: 0px;  
+
+	border: none;
+	padding: 0;
+	outline: inherit;
+    transition: 0.2s;
+    cursor: pointer;
+    -webkit-font-smoothing: subpixel-antialiased;
+    -webkit-transform: translateZ(0) scale(1.0, 1.0);
+}
+
+.learn-more-button-mobile:hover{
+    filter: brightness(120%);
+}
+.learn-more-button-mobile:active{
+  -webkit-transform: translateY(5px);
+  transform: translateY(5px);
+}
+
+.learn-more-text-mobile{
+    -webkit-text-stroke: 1px rgba(0, 0, 0, 0);
+    font-family: Poppins-light;
+    font-size: 8px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 0.44;
+    letter-spacing: normal;
+    text-align: left;
+    color: #ffffff;
+
+    position: absolute;
+    top: 50%; left: 50%;
+    transform: translate(-50%,-50%);
+}

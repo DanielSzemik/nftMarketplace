@@ -41,6 +41,15 @@
   
 }
 
+.videoTag-mobile{
+  overflow: 'hidden';
+  display: inline-block;
+  width: auto;
+  height: 100%;
+  z-index: -100;
+  
+}
+
 .video-blur{
   position: absolute;
   top: 50%; left: 50%;

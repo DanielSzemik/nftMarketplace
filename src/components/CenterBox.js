@@ -2,6 +2,7 @@ import './CenterBox.css';
 import React from "react"
 import { Link } from 'react-router-dom';
 import LinkButton from './LinkButton'
+import { useMediaQuery } from 'react-responsive'
  
 const CenterBox = () => {
     const launchDate = new Date(2022, 7, 16, 21, 0, 0);
@@ -41,28 +42,62 @@ const CenterBox = () => {
         }, 1);
       }, []);
 
+      const Desktop = ({ children }) => {
+        const isDesktop = useMediaQuery({ minWidth: 882 })
+        return isDesktop ? children : null
+      }
+      const Mobile = ({ children }) => {
+        const isMobile = useMediaQuery({ maxWidth: 882 })
+        return isMobile ? children : null
+      }
+
     return (
         <div className="top-level">
-            <span className="discover-collect-create">DISCOVER. COLLECT. CREATE<span className="star-next-to-create">*</span></span>
-            <div className="right-div">
-                <span className="get-ready-text">*Get ready for a new space centered &nbsp;&nbsp;around art creators and collectors</span>
-                <div className="days-rectangle">
-                    <span className="days-top">
-                        <span className="days-number">{leftCountdownValue}</span>
-                        <span className="days">{leftCountdownLabel}</span>
-                    </span>
-                </div>
-                <div className="hours-rectangle">
-                    <span className="days-top">
-                        <span className="days-number">{rightCountdownValue}</span>
-                        <span className="days">{rightCountdownLabel}</span>
-                    </span>
-                </div>
-                    <LinkButton className="learn-more-button" to='/About'>
-                        <span className="learn-more-text">LEARN MORE</span>
-                    </LinkButton>
+            <Desktop>
+                <span className="discover-collect-create">DISCOVER. COLLECT. CREATE<span className="star-next-to-create">*</span></span>
+                <div className="right-div">
+                    <span className="get-ready-text">*Get ready for a new space centered around art creators and collectors</span>
+                    <div className="days-rectangle">
+                        <span className="days-top">
+                            <span className="days-number">{leftCountdownValue}</span>
+                            <span className="days">{leftCountdownLabel}</span>
+                        </span>
+                    </div>
+                    <div className="hours-rectangle">
+                        <span className="days-top">
+                            <span className="days-number">{rightCountdownValue}</span>
+                            <span className="days">{rightCountdownLabel}</span>
+                        </span>
+                    </div>
+                        <LinkButton className="learn-more-button" to='/About'>
+                            <span className="learn-more-text">LEARN MORE</span>
+                        </LinkButton>
 
-            </div>
+                </div>
+            </Desktop>
+            <Mobile>
+                <span className="discover-collect-create-mobile">DISCOVER. COLLECT. CREATE<span className="star-next-to-create-mobile">*</span></span>
+                <div className="right-div-mobile">
+                    <span className="get-ready-text-mobile">*Get ready for a new space centered around art creators and collectors</span>
+                    <div className="days-rectangle-mobile">
+                        <span className="days-top-mobile">
+                            <span className="days-number-mobile">{leftCountdownValue}</span>
+                            <span className="days-mobile">{leftCountdownLabel}</span>
+                        </span>
+                    </div>
+                    <div className="hours-rectangle-mobile">
+                        <span className="days-top-mobile">
+                            <span className="days-number-mobile">{rightCountdownValue}</span>
+                            <span className="days-mobile">{rightCountdownLabel}</span>
+                        </span>
+                    </div>
+                        <LinkButton className="learn-more-button-mobile" to='/About'>
+                            <span className="learn-more-text-mobile">LEARN MORE</span>
+                        </LinkButton>
+
+                </div>
+            </Mobile>
+            
         </div>
 
     )

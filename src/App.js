@@ -5,6 +5,7 @@ import Footer from './components/Footer'
 import Background from './img/bg_1.mp4';
 import About from './components/About'
 import React from "react";
+import { useMediaQuery } from 'react-responsive'
 import {
   BrowserRouter as Router,
   Switch,
@@ -14,6 +15,15 @@ import {
 
 
 function App() {
+  const Desktop = ({ children }) => {
+    const isDesktop = useMediaQuery({ minWidth: 882 })
+    return isDesktop ? children : null
+  }
+  const Mobile = ({ children }) => {
+    const isMobile = useMediaQuery({ maxWidth: 882 })
+    return isMobile ? children : null
+  }
+
   return (
     <Router>
     <div id="Root">
@@ -23,12 +33,23 @@ function App() {
         </Route>
         <Route path ="/">
           <div className="App">
-            <div className="background-video">
-              <video className='videoTag' autoPlay loop muted>
-                <source src={Background} type='video/mp4' />
-              </video>
-            </div>
-            <div className="video-blur"></div>
+            <Desktop>
+              <div className="background-video">
+                <video className='videoTag' autoPlay loop muted>
+                  <source src={Background} type='video/mp4' />
+                </video>
+              </div>
+              <div className="video-blur"></div>
+            </Desktop>
+            <Mobile>
+              <div className="background-video-mobile">
+                  <video className='videoTag-mobile' autoPlay loop muted>
+                    <source src={Background} type='video/mp4' />
+                  </video>
+              </div>
+              <div className="video-blur"></div>
+            </Mobile>
+
             <div className="top-left-box">
               <TopLeftBox />
             </div>
