@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/nftMarketplace/static/css/main.7c861348.css",
+    "main.css": "/nftMarketplace/static/css/main.6f3b3064.css",
     "main.js": "/nftMarketplace/static/js/main.4d646730.js",
     "static/js/787.c23b093c.chunk.js": "/nftMarketplace/static/js/787.c23b093c.chunk.js",
     "static/media/bg_1.mp4": "/nftMarketplace/static/media/bg_1.4caa584e548b76f25cd3.mp4",
@@ -10,12 +10,12 @@
     "static/media/Poppins-Bold.ttf": "/nftMarketplace/static/media/Poppins-Bold.cdb29a5d7ccf57ff05a3.ttf",
     "static/media/Logo.svg": "/nftMarketplace/static/media/Logo.a357ce43c6ae4a82646af6f0fe3d28b7.svg",
     "index.html": "/nftMarketplace/index.html",
-    "main.7c861348.css.map": "/nftMarketplace/static/css/main.7c861348.css.map",
+    "main.6f3b3064.css.map": "/nftMarketplace/static/css/main.6f3b3064.css.map",
     "main.4d646730.js.map": "/nftMarketplace/static/js/main.4d646730.js.map",
     "787.c23b093c.chunk.js.map": "/nftMarketplace/static/js/787.c23b093c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7c861348.css",
+    "static/css/main.6f3b3064.css",
     "static/js/main.4d646730.js"
   ]
 }
